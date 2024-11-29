@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # modify login IP
-#sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 
 # modify host name
 #sed -i 's/OpenWrt/Xiaomi-Router/g' package/base-files/files/bin/config_generate
