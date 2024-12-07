@@ -21,6 +21,7 @@ on:
           - 'phicomm-k3'
           - 'tenda-ac9'
           - 'xiaomi-ax3600'
+          - 'xiaomi-ax3600-stock'
           - 'xiaomi-ax9000'
           - 'h3c-magic-nx30-pro'
           - 'qihoo-360t7'
@@ -58,6 +59,7 @@ on:
         required: true
         type: choice
         options:
+          - 'openwrt-24.10'
           - 'openwrt-23.05'
           - 'openwrt-22.03'
           - 'openwrt-21.02'
