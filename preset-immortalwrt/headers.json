@@ -4,6 +4,7 @@
   "tenda-ac9": ["1", "bcm53xx", "generic", "tenda_ac9"],
   "xiaomi-ax3600-stock-24.10": ["2", "qualcommax", "ipq807x", "xiaomi_ax3600-stock"],
   "xiaomi-ax3600-stock": ["2","ipq807x", "generic", "xiaomi_ax3600-stock"],
+  "xiaomi-ax3600": ["2","ipq807x", "generic", "xiaomi_ax3600"],
   "xiaomi-ax9000": ["2", "ipq807x", "generic", "xiaomi_ax9000"],
   "h3c-magic-nx30-pro": ["2", "mediatek", "filogic", "h3c_magic-nx30-pro"],
   "qihoo-360t7": ["2", "mediatek", "filogic", "qihoo_360t7"],
