@@ -59,7 +59,7 @@ on:
         type: choice
         options:
           - 'openwrt-24.10'
-          - 'openwrt-23.05.4'
+          - 'v23.05.4'
           - 'openwrt-23.05'
           - 'master'
       latest_tag:
