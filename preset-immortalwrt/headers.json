@@ -2,7 +2,7 @@
   "qihoo-c301": ["1", "ath79", "generic", "qihoo_c301"],
   "phicomm-k3": ["2", "bcm53xx", "generic", "phicomm_k3"],
   "tenda-ac9": ["1", "bcm53xx", "generic", "tenda_ac9"],
-  "xiaomi-ax3600": ["2", "ipq807x", "generic", "xiaomi_ax3600"],
+  "xiaomi-ax3600-stock-24.10": ["2", "qualcommax", "ipq807x", "xiaomi_ax3600-stock"],
   "xiaomi-ax3600-stock": ["2", "ipq807x", "generic", "xiaomi_ax3600-stock"],
   "xiaomi-ax9000": ["2", "ipq807x", "generic", "xiaomi_ax9000"],
   "h3c-magic-nx30-pro": ["2", "mediatek", "filogic", "h3c_magic-nx30-pro"],
