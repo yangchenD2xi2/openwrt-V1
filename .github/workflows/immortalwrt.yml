@@ -22,6 +22,7 @@ on:
           - 'tenda-ac9'
           - 'xiaomi-ax3600-stock-24.10'
           - 'xiaomi-ax3600-stock'
+          - 'xiaomi-ax3600'
           - 'xiaomi-ax9000'
           - 'h3c-magic-nx30-pro'
           - 'qihoo-360t7'
