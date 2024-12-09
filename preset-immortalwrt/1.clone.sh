@@ -24,7 +24,7 @@ mv ./$CODE_DIR/* ./
 SUPPLY_DIR=_supply_packages
 echo "src-link supply $PWD/$SUPPLY_DIR" >> feeds.conf.default
 mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
-git clone https://github.com/haiibo/openwrt-packages package/openwrt-packages make menuconfig
+git clone --depth 1 https://github.com/haiibo/openwrt-packages package/openwrt-packages make menuconfig
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
 git clone --depth 1 https://github.com/kongfl888/luci-app-timedreboot.git
 git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
