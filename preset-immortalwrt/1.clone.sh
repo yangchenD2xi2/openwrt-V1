@@ -24,10 +24,12 @@ mv ./$CODE_DIR/* ./
 SUPPLY_DIR=_supply_packages
 echo "src-link supply $PWD/$SUPPLY_DIR" >> feeds.conf.default
 mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git && mv openwrt-passwall/luci-app-passwall ./ && rm -rf openwrt-passwall
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git && mv openwrt-passwall2/luci-app-passwall2 ./ && rm -rf openwrt-passwall2
 git clone --depth 1 https://github.com/yichya/openwrt-xray.git
 git clone --depth 1 https://github.com/XTLS/Xray-core.git
-git clone --depth 1 https://github.com/haiibo/openwrt-packages package/openwrt-packages make menuconfig
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
+git clone --depth 1 https://github.com/haiibo/openwrt-packages.git && mv openwrt-packages/luci-app-vssr./&& rm -rf openwrt-packages
+git clone --depth 1 https://github.com/haiibo/openwrt-packages.git && mv openwrt-packages/luci-app-poweroff./&& rm -rf openwrt-packages
 git clone --depth 1 https://github.com/kongfl888/luci-app-timedreboot.git
 git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages.git
