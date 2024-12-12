@@ -24,13 +24,7 @@ mv ./$CODE_DIR/* ./
 SUPPLY_DIR=_supply_packages
 echo "src-link supply $PWD/$SUPPLY_DIR" >> feeds.conf.default
 mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
-git clone --depth 1 https://github.com/yichya/openwrt-xray.git
-git clone --depth 1 https://github.com/XTLS/Xray-core.git
 git clone --depth 1 https://github.com/haiibo/openwrt-packages.git && mv openwrt-packages/luci-app-poweroff./&& rm -rf openwrt-packages
-git clone --depth 1 https://github.com/haiibo/openwrt-packages.git && mv openwrt-packages/luci-app-ssr-plus./&& rm -rf openwrt-packages
-git clone --depth 1 https://github.com/kongfl888/luci-app-timedreboot.git
-git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
-git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-adguardhome./&& rm -rf small-package
 git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-ddns./&& rm -rf small-package
 git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-firewall./&& rm -rf small-package
 git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-nlbwmon./&& rm -rf small-package
@@ -38,6 +32,9 @@ git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-pac
 git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-ramfree./&& rm -rf small-package
 git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-smartdns./&& rm -rf small-package
 git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-upnp./&& rm -rf small-package
+git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-ssr-plus./&& rm -rf small-package
+git clone --depth 1 https://github.com/kenzok8/small-package.git && mv small-package/luci-app-homeproxy./&& rm -rf small-package
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
-git clone --depth 1 https://github.com/vernesong/OpenClash.git
+git clone --depth 1 https://github.com/kongfl888/luci-app-timedreboot.git
+git clone --depth 1 https://github.com/chenmozhijin/turboacc.git
